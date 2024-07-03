@@ -102,7 +102,7 @@
 //      ACTIVITY 2
 // let ordercount = 0
 // const takeOrder = (topping1, topping2) => {
-//     console.log(`I would like a pizza with ${topping1} and ${topping2} please.`)
+//     console.log(`I would like a pizza with ${topping1} and ${topping2} please.` )
 //     ordercount++
 // }
 // takeOrder("Ham", "Pineapple")
