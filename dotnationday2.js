@@ -1,18 +1,18 @@
 // // MORNING
 // let weather = "dull"
 // if (weather == "sunny") {
-// do this
+//       do this
 //console.log("Well I better wear my sunglasses")
 // }
 // else if (weather == "rainy") {
-// do this
+//      do this
 //console.log("I best not forget a coat")
 // }
 // else {
-// if nothing else matched do this
+//      if nothing else matched do this
 //console.log("I best wrap up")
 // }
-// === is strictly equivalent to including the date type. == id equivalent. != Not Equal !== Not strictly equal.
+//      === is strictly equivalent to including the date type. == id equivalent. != Not Equal !== Not strictly equal.
 // let place = "Manchester";
 // let weather = "Cloudy";
 
@@ -82,22 +82,89 @@
 // else {
 //     console.log ("Password is too short.")
 // }
+
 //      ACTIVITY 4
+
+// let num = 60
+// if(num % 3 === 0 & num % 5 === 0) {
+//     console.log("Fizzbuzz")
+// }
+// else if(num % 3 === 0) {
+//     console.log("Fizz")
+// }
+// else if(num % 5 === 0) {
+//     console.log("Buzz")
+// }
+// else {
+//     console.log(num)
+// }
+
 //      ACTIVITY 5
+// let num = 1010101
+// let numStr = num.toString()
+// let reversedstring = numStr.split('').reverse().join('');
+// if (numStr === reversedstring) {
+//     console.log(` ${num} is a palindrome. `)
+// }
+// else {
+//     console.log(` ${num} is not a palindrome.`)
+// }
+
 //      ACTIVITY 6
-// let time = "3"
-// if (time == "8") {
-//     console.log ("en route")
+
+// let time = 17;
+// let placeOfWork = "At my desk";
+// let townOfHome = "Home";
+ 
+// if (time >= 0 && time < 6) {
+//     console.log(`At ${time}:00, I'm sleeping. Get lost!`);
+// } else if (time >= 6 && time < 8) {
+//     console.log(`At ${time}:00, I'm at ${townOfHome}.`);
+// } else if (time >= 8 && time < 9) {
+//     console.log(`At ${time}:00, I'm en route to ork.`);
+// } else if (time >= 9 && time < 17) {
+//     console.log(`At ${time}:00, I'm at ${placeOfWork}.`);
+// } else if (time >= 17 && time < 18) {
+//     console.log(`At ${time}:00, I'm en route home.`);
+// } else if (time >= 18 && time < 24) {
+//     console.log(`At ${time}:00, I'm at ${townOfHome}.`);
+// } else {
+//     console.log(`That's an invalid time.`);
 // }
-// if (time == "7") {
-//     console.log ("Getting ready")
-// }
-// if (time == "9") {
-//     console.log ("arriving at work")
-// }
+
 //      ACTIVITY 7
+
+// let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwsh";
+// const vowels = "aeiouAEIOU";
+// let lastVowelIndex = -1;
+ 
+// for (let i = str.length - 1; i >= 0; i--) {
+//     if (vowels.includes(str[i])) {
+//         lastVowelIndex = i;
+//         break;
+//     }
+// }
+ 
+// console.log(`The index of the last vowel is: ${lastVowelIndex}`);
+
 //      ACTIVITY 8
+
+// let word = "ABBA";
+// let isSame = word.length > 0 && word[0] === word[word.length - 1];
+// console.log(isSame);
+
 //      ACTIVITY 9
+
+// let num1 = 155;
+// let num2 = 5;
+// let sum = num1 + num2;
+// let result;
+// if (sum % 2 === 0) {
+//     result = sum;
+// } else {
+//     result = num1 * num2;
+// }
+// console.log(result);
 
 //      AFTERNOON
 //      ACTIVITY 1
@@ -120,6 +187,16 @@
 
 // favouritesongs .pop()
 // console.log (favouritesongs)
+//      ACTIVITY 2
+// let numbers = [1, 2, 3, 4, 5];
+ 
+// let doubledNumbers = numbers.map(function(number) {
+//     return number * 2;
+// });
+ 
+// console.log("Original numbers:", numbers);
+// console.log("Doubled numbers:", doubledNumbers);
+
 //      END OF SESSION ACTIVITIES
 //      ACTIVITY 1
 // let favouritemovingpictures=  [
@@ -136,16 +213,12 @@
 //     console.log (favouritemovingpictures[i])
 // }
 //      ACTIVITY 2
-// let i = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49"]
-// while (0<i>50) {
-//         i=[Math.floor(Math.random())]
-//         console.log(i)
-// }
+
 //      ACTIVITY 3
 
 //      ACTIVITY 4
 
-//      ACTIVTY 5
+//      ACTIVITY 5
 
 //      ACTIVITY 6
 
