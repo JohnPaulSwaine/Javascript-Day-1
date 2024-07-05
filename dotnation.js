@@ -25,17 +25,23 @@
 // console.log(favouriteDrink)
 // console.log("My favourite drink is " + favouriteDrink)
 // console.log("My name is " + name + ". I am " + age + " years old. My favourite drink is " + favouriteDrink)
-// Activity 1
+
+//      ACTIVITY 1
+
 // let name = "John"
 // let age = "28"
 // let favcolour = "Royal Blue"
 // console.log("My name is " + name + ". I am currently " + age + ". My favourite colour is " + favcolour + ".")
-// Activity 1 Stretch 
+
+//      ACTIVITY 1 STRETCH 
+
 // let name = "Jonah"
 // let age = "35"
 // let favcolour = "Brown"
 // console.log("My name is " + name + ". I am currently " + age + ". My favourite colour is " + favcolour + ".")
-// Activity 2
+
+//      ACTIVITY 2
+
 // let breakfast = "nothing"
 // let lunch = "nothing"
 // let tea = "Pizza"
@@ -45,13 +51,32 @@
 // let lunch = "nothing"
 // let tea = "Fish and CHips"
 // console.log("Tomorrow for breakfast I will have " + breakfast + ". I shall then have " + lunch + " for lunch. For tea I will eat " + tea + ".")
-// // Activity 3
+
+//      ACTIVITY 3
 // const today = new Date();
-// const birthday = new Date(2025-5-27)
-// const start = today
-// const end = birthday
-// const elapsed = Math.floor(end-start)/1000;
-// // console.log = Math.floor(end - start)
-// console.log(Elapsed(end - start));
-// return result;
-// Unable to complete activity 3 despite sing MDN as recommended. 
+// const birthday = new Date('2025-05-27');
+// const difInMil = birthday - today;
+// const difInDays = Math.ceil(difInMil / (1000 * 60 * 60 * 24));
+// console.log(`There are ${difInDays} days left until your birthday.`);
+//      ACTIVITY 4
+// let space1 = 'x';
+// let space2 = 'o';
+// let space3 = 'x';
+// let space4 = 'o';
+// let space5 = 'x';
+// let space6 = 'o';
+// let space7 = 'x';
+// let space8 = 'o';
+// let space9 = 'x';
+ 
+// console.log(`   |   |   `);
+// console.log(` ${space1} | ${space2} |   `);
+// console.log(`   |   |   `);
+// console.log('-----------');
+// console.log(`   |   |   `);
+// console.log(` ${space3} | ${space5} |   `);
+// console.log(`   |   |   `);
+// console.log('-----------');
+// console.log(`   |   |   `);
+// console.log(` ${space8} |   |   `);
+// console.log(`   |   |   `);
