@@ -127,7 +127,10 @@
 // }
 // console.log(person.top5songs)
 // console.log (person)
+
+
 //      ACTIVITY 1
+
 // let person = {
 //     myname: "John-Paul",
 //     age: 28,
@@ -145,10 +148,72 @@
 // sayHi()
 // console.log(person.top5songs)
 // console.log (person)
+
 //      ACTIVITY 2
+
+// let pet = {
+//     name: "Fluffy",
+//     typeOfPet: "Cat",
+//     age: 5,
+//     colour: "Gray",
+//     eat: function() {
+//         return `${this.name} is eating.`;
+//     },
+//     drink: function() {
+//         return `${this.name} is drinking.`;
+//     }
+// };
+// console.log(pet.eat());   
+// console.log(pet.drink()); 
 
 //      ACTIVITY 3
 
+// let coffeeShop = {
+//     branch: "Main Street", 
+//     drinks: { 
+//         coffee: 2.5,
+//         tea: 2,
+//         latte: 3,
+//         cappuccino: 3.5
+//     },
+//     food: { 
+//         sandwich: 5,
+//         cake: 3.5,
+//         muffin: 2
+//     },
+//     orderDrinks: function(drinkItems) {
+//         let order = "Drinks ordered: ";
+//         let totalCost = 0;
+//         for (let drink of drinkItems) {
+//             if (this.drinks[drink]) { 
+//                 order += `${drink}, `;
+//                 totalCost += this.drinks[drink];
+//             } else {
+//                 order += `${drink} (not available), `;
+//             }
+//         }
+//         order = order.slice(0, -2); 
+//         order += `. Total cost: ${totalCost.toFixed(2)} USD.`;
+//         return order;
+//     },
+//     orderFood: function(foodItems) {
+//         let order = "Food ordered: ";
+//         let totalCost = 0;
+//         for (let food of foodItems) {
+//             if (this.food[food]) { 
+//                 order += `${food}, `;
+//                 totalCost += this.food[food];
+//             } else {
+//                 order += `${food} (not available), `;
+//             }
+//         }
+//         order = order.slice(0, -2); 
+//         order += `. Total cost: ${totalCost.toFixed(2)} USD.`;
+//         return order;
+//     }
+// };
+// console.log(coffeeShop.orderDrinks(['coffee', 'latte'])); 
+// console.log(coffeeShop.orderFood(['sandwich', 'cake', 'croissant'])); 
 
 //      AFTERNOON
 //  ACTIVITY A
