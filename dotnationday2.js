@@ -115,7 +115,6 @@
 // let time = 17;
 // let placeOfWork = "At my desk";
 // let townOfHome = "Home";
- 
 // if (time >= 0 && time < 6) {
 //     console.log(`At ${time}:00, I'm sleeping. Get lost!`);
 // } else if (time >= 6 && time < 8) {
@@ -137,14 +136,12 @@
 // let str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwsh";
 // const vowels = "aeiouAEIOU";
 // let lastVowelIndex = -1;
- 
 // for (let i = str.length - 1; i >= 0; i--) {
 //     if (vowels.includes(str[i])) {
 //         lastVowelIndex = i;
 //         break;
 //     }
 // }
- 
 // console.log(`The index of the last vowel is: ${lastVowelIndex}`);
 
 //      ACTIVITY 8
@@ -184,20 +181,19 @@
 // favouritesongs .push ("Takuma Terashima - Nameless Story")
 // favouritesongs .push ("Kay Kyser - [I Got Spurs That] Jingle Jangle Jingle")
 // console.log (favouritesongs)
-
 // favouritesongs .pop()
 // console.log (favouritesongs)
+
 //      ACTIVITY 2
 // let numbers = [1, 2, 3, 4, 5];
- 
 // let doubledNumbers = numbers.map(function(number) {
 //     return number * 2;
-// });
- 
+// }); 
 // console.log("Original numbers:", numbers);
 // console.log("Doubled numbers:", doubledNumbers);
 
 //      END OF SESSION ACTIVITIES
+
 //      ACTIVITY 1
 // let favouritemovingpictures=  [
 //     "Sword Art Online: Ordinal Scale",
@@ -212,14 +208,85 @@
 // for (let i = 0; i < favouritemovingpictures.length; i++) {
 //     console.log (favouritemovingpictures[i])
 // }
+
 //      ACTIVITY 2
+
+// for (let i = 0; i < 6; i++) {
+//     let randomNumber = Math.floor(Math.random() * 50) + 1;
+//     console.log(randomNumber);
+// }
 
 //      ACTIVITY 3
 
+// function countdown() {
+//     for (let i = 9; i >= 0; i--) {
+//         console.log(i); 
+//     }
+// }
+
+// countdown();
+
 //      ACTIVITY 4
+
+// let films = ["Jurassic Park", "Back to the Future", "Ghostbusters", "The Matrix"];
+// let films = ["Jurassic Park", "Back to the Future", "How to train your dragon", "The Matrix"];
+// for (let i = 0; i < films.length; i++) {
+//     console.log(films[i]);
+// }
+// if (films[2] === "Ghostbusters") {
+//     console.log("Yay! Ghostbusters");
+// } else {
+//     console.log("Boo! We want Ghostbusters");
+// }
 
 //      ACTIVITY 5
 
+// Function to generate a random number between min and max (inclusive)
+// function getRandomNumber(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// for (let i = 0; i < 6; i++) {
+//     let randomNumber = getRandomNumber(1, 30);
+//     if (randomNumber % 7 === 0) {
+//         console.log(randomNumber + " is divisible by 7.");
+//     } else {
+//         console.log(randomNumber + " is not divisible by 7.");
+//     }
+// }
+
 //      ACTIVITY 6
 
+// let bobsFollowers = ['Alice', 'Bob', 'Charlie', 'David'];
+// let hannahsFollowers = ['Bob', 'Charlie', 'Eve', 'Alice'];
+// let mutualFollowers = [];
+// for (let i = 0; i < bobsFollowers.length; i++) {
+//     for (let j = 0; j < hannahsFollowers.length; j++) {
+//         if (bobsFollowers[i] === hannahsFollowers[j]) {
+//             mutualFollowers.push(bobsFollowers[i]);
+//         }
+//     }
+// }
+// if (mutualFollowers.length > 0) {
+//     console.log("Mutual followers:");
+//     mutualFollowers.forEach(function(follower) {
+//         console.log(follower);
+//     });
+// } else {
+//     console.log("No mutual followers found.");
+// }
+
 //      ACTIVITY 7
+
+//  A while loop runs whilst the specified condition is true
+// let count = 0;
+// while (count < 5) {
+//     console.log(count);
+//     count++;
+// }
+
+// A do...while loop will only run once and then as many times as the condition is true.
+// let num = 1;
+// do {
+//     console.log(num);
+//     num++;
+// } while (num <= 5);
